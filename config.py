@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24798261"))
+APP_ID = int(os.environ.get("APP_ID", "22193282"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "fef280037f5759eccc540c6d7a279a14")
+API_HASH = os.environ.get("API_HASH", "300f6323abc57f2c2b39eb1790fac3ad")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002227081660"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002352414263"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6155478725"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5347709348"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Bhratashree 😊!!\n\n➡️Aap humare owner nahi hai kripya yaha msg naa kre ye bot sirf owner ki sunta hai kuch puchna hai to iss username pe msg kre @THEHEATHERS_BOT 🙏\n\nDhanyawad!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6155478725)
+ADMINS.append(5347709348)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
