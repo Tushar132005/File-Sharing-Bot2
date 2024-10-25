@@ -34,7 +34,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filestore12")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001678918073"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "2"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello👋🏻 {mention}\n\nI Am 𝗛𝗞 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟™ 😊store bot You will get here Study Material by links🔗 which will be provided in channels✅⭐️.")
