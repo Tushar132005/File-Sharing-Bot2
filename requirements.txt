@@ -3,7 +3,7 @@ https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
 pyrogram
 pyrofork
 TgCrypto
-pyromod==1.5
+pyromod
 # --- For-Database ------------ #
 pymongo
 dnspython
