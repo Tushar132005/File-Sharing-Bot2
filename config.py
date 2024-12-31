@@ -11,16 +11,16 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24798261"))
+APP_ID = int(os.environ.get("APP_ID", "22193282"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "fef280037f5759eccc540c6d7a279a14")
+API_HASH = os.environ.get("API_HASH", "300f6323abc57f2c2b39eb1790fac3ad")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002227081660"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002352414263"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6155478725"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5347709348"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -40,7 +40,7 @@ START_PIC = os.environ.get("START_PIC","https://envs.sh/oXP.jpg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI Am 𝗛𝗞 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟™ 😊store bot You will get here Study Material by links🔗 which will be provided in channels✅⭐️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5347709348").split()):
+    for x in (os.environ.get("ADMINS", "6155478725").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -65,7 +65,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly Dm here if u have any problem @HKOWNER0 !"
 
-ADMINS.append(6155478725)
+ADMINS.append(5347709348)
 ADMINS.append(1250450587)
 
 LOG_FILE_NAME = "filesharingbot.txt"
